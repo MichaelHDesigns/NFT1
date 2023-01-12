@@ -24,10 +24,10 @@ module.exports = {
         process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
     },
   },
-  gasReporter: {
-    enabled: process.env.REPORT_GAS !== undefined,
-    currency: 'USD',
-  },
+//  gasReporter: {
+//    enabled: process.env.REPORT_GAS !== undefined,
+//    currency: 'USD',
+//  },
 //  etherscan: {
 //    apiKey: process.env.POLYSCAN_API_KEY,
 //  },
