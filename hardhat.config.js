@@ -18,7 +18,7 @@ module.exports = {
   networks: {
     mumbai: {
       url:
-        `https://polygon-mumbai.g.alchemy.com/v2/${process.env.ALCHEMY_API}` ||
+        `https://rpc0.altcoinchain.org/rpc` ||
         '',
       accounts:
         process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
@@ -28,7 +28,7 @@ module.exports = {
     enabled: process.env.REPORT_GAS !== undefined,
     currency: 'USD',
   },
-  etherscan: {
-    apiKey: process.env.POLYSCAN_API_KEY,
-  },
+//  etherscan: {
+//    apiKey: process.env.POLYSCAN_API_KEY,
+//  },
 };
